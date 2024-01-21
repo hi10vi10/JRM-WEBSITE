@@ -23,7 +23,7 @@
   body {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    background-color: rgb(106, 239, 131);
+    background-color: rgb(255, 255, 255);
   }
   
   /* Set the background color and margin for the unordered list */
@@ -33,7 +33,7 @@
   }
   
   /* Set the display, padding, and margin for the list items */
-#nav{
+li{
     display: inline-block;
     padding: 10px;
     margin: 5px;
@@ -93,28 +93,35 @@ border: 10px solid black;
   padding: 10px;
   margin: 10px;
   align-self: center;
-  background-color: rgb(0, 255, 47);
+  box-shadow: 5px 5px 8px rgb(0, 0, 0);
 }
 .dev{
   border: 5px;
-  box-shadow: 5px 5px 8px rgba(0, 0, 0);
-  background-color: aqua;
+  box-shadow: 5px 5px 8px rgb(0, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 .devil{
   border: 5px;
-  box-shadow: 5px 5px 8px rgba(0,0,0);
-  background-color: darkcyan;
+  box-shadow: 5px 5px 8px rgb(255, 0, 221);
+  background-color: rgb(255, 255, 255);
 }
 .devi{
   border: 5px;
-  box-shadow: 5px 5px 8px rgba(0,0,0);
-  background-color: grey;
+  box-shadow: 5px 5px 8px rgb(98, 0, 255);
+  background-color: rgb(255, 255, 255);
 }
 ol{
   background-color: rgb(255, 255, 255);
   margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
-li{
-  margin: 0;
-  border: 10px;
+#ch{
+  display: inline-block;
+  height: 200px;
+  width: 300px;
+}
+#cho{
+  display: inline-block;
+  height: 300px;
+  width: 480px;
 }
