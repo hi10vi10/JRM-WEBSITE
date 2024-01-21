@@ -23,6 +23,7 @@
   body {
     font-family: Arial, sans-serif;
     font-size: 16px;
+    background-color: rgb(106, 239, 131);
   }
   
   /* Set the background color and margin for the unordered list */
@@ -32,7 +33,7 @@
   }
   
   /* Set the display, padding, and margin for the list items */
-  li {
+#nav{
     display: inline-block;
     padding: 10px;
     margin: 5px;
@@ -51,7 +52,7 @@
   }
   
   /* Set the text alignment and margin for the headings */
-  h1, h2, h3 {
+  h1, h2 {
     text-align: center;
     margin: 20px;
   }
@@ -85,4 +86,35 @@
     font-weight: bold;
     margin: 5px;
   }
-
+.device{
+border: 10px solid black;
+}
+.image{
+  padding: 10px;
+  margin: 10px;
+  align-self: center;
+  background-color: rgb(0, 255, 47);
+}
+.dev{
+  border: 5px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0);
+  background-color: aqua;
+}
+.devil{
+  border: 5px;
+  box-shadow: 5px 5px 8px rgba(0,0,0);
+  background-color: darkcyan;
+}
+.devi{
+  border: 5px;
+  box-shadow: 5px 5px 8px rgba(0,0,0);
+  background-color: grey;
+}
+ol{
+  background-color: rgb(255, 255, 255);
+  margin: 0px 0px 0px 0px;
+}
+li{
+  margin: 0;
+  border: 10px;
+}
